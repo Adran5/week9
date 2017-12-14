@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Frank Lloyd Wright</title>
+    <script       src="https://use.fontawesome.com/901a8442a1.js"></script> <!--  Font Awesome link -->
+   <link href="https://fonts.googleapis.com/css?family=Audiowide|Montserrat|Quicksand" rel="stylesheet"> <!--Google Fonts Montserrat 
+Audiowide Quicksand -->
+    <link rel="stylesheet" type="text/css" href="styles/stylesheets.css">
+  </head>
+  <body>
+    <header>
+      <!-- Logo, name of the site, main navigation-->
+      <h1>Frank Lloyd Wright</h1>
+      <h2>Donate</h2>
+       <nav>
+        <ul class="headernav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Donate</a></li>
+        </ul>
+      </nav>
+    </header>
+      <aside class="rounded"> 
+        <img src="images/flw.jpg" alt="Frank Lloyd Wright Image" >
+      </aside>
+  <main>
+    <article>
+      <!-- Headline, Main article -->
+      <h3>Payment Details</h3>
+      <form action="/action_page.php">
+
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Enter your name">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+
+          <label for="email">Email Address</label>
+          <input type="text" id="email" name="email" placeholder="Enter your email address">
+
+           <label for="cardnumber">Card Number</label>
+          <input type="text" id="cardnumber" name="cardnumber" placeholder="Enter your card number here">
+
+          <label for="country">Donation Amount</label>
+          <select id="country" name="country">
+            <option value="1000">$1,000 - One Thousand</option>
+            <option value="10000">$10,000 - Ten Thousand</option>
+            <option value="100000">$100,000 - One Hundred Thousand</option>
+            <option value="1000000">$1,000,000 - One Million</option>
+            <option value="1000000000">$1,000,000,000 - One Billion</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+
+        </form>
+    </article>
+  </main>
+    <footer>
+      <!-- copyright info, secondary navigation -->
+      <p>&copy;2017 | Adran Nakagawa | <a href="https://www.linkedin.com/in/adran" target="_blank">LinkedIn</a></p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Donate</a>
+      </nav>
+    </footer>
+  </body>
+</html>
